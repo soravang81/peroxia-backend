@@ -1,0 +1,17 @@
+INFO:     Started server process [280019]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:48052 - "POST /api/v1/auth/signup HTTP/1.1" 201 Created
+INFO:     127.0.0.1:48068 - "POST /api/v1/auth/signup HTTP/1.1" 201 Created
+INFO:     127.0.0.1:48084 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48102 - "POST /api/v1/projects/ HTTP/1.1" 201 Created
+INFO:     127.0.0.1:48104 - "POST /api/v1/projects/1/members HTTP/1.1" 201 Created
+INFO:     127.0.0.1:48116 - "WebSocket /ws/projects/1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJib2JfdGVzdCIsImV4cCI6MTc3MjE4Mjk4Nn0.qdFN1je0yww4rA6I4ejlrjmL14mZqdziH9AvOHCJy_A" [accepted]
+INFO:     connection open
+Client connected to room 1. Total: 1
+INFO:     127.0.0.1:48124 - "POST /api/v1/projects/1/tasks HTTP/1.1" 201 Created
+INFO:     127.0.0.1:48140 - "PATCH /api/v1/tasks/1/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48156 - "PUT /api/v1/tasks/1 HTTP/1.1" 200 OK
+INFO:     connection closed
